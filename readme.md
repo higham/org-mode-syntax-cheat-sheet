@@ -2,6 +2,9 @@ Org-Mode Syntax Cheat-Sheet
 ===========================
 
 A document showing the most important aspects of Org-mode syntax.
+It is inspired by an example of Org syntax in the article
+[Org-Mode Is One of the Most Reasonable Markup Language to Use for Text]
+(http://karl-voit.at/2017/09/23/orgmode-as-markup-only/) by Karl Voit.
 
 Contents
 ---------
