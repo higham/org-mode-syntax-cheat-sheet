@@ -1,5 +1,7 @@
 #+TITLE: Org Mode Syntax Cheat-Sheet
 #+OPTIONS: toc:nil 
+# Adapted from http://karl-voit.at/2017/09/23/orgmode-as-markup-only/
+
 * Top Level Heading
 ** Second Level Heading
 *** Third Level Heading
@@ -14,7 +16,7 @@ Paragraphs are separated by at least one empty line.
 
 https://nickhigham.wordpress.com/ A link without a description.
 
-A DOI link: 
+A DOI (digital object identifier) link: 
 [[doi:10.1093/comnet/cnv016][Matching Exponential-Based and Resolvent-Based Centrality Measures]]
 
 A horizontal line, fill-width across the page:
