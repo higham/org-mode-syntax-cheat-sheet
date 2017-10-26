@@ -6,6 +6,9 @@
                      _____________________________
 
 
+
+
+
 1 Top Level Heading
 ===================
 
@@ -23,8 +26,8 @@
 
   [https://nickhigham.wordpress.com/] A link without a description.
 
-  A DOI link: [Matching Exponential-Based and Resolvent-Based Centrality
-  Measures]
+  A DOI (digital object identifier) link: [Matching Exponential-Based
+  and Resolvent-Based Centrality Measures]
 
   A horizontal line, fill-width across the page:
   ----------------------------------------------------------------------
@@ -34,7 +37,7 @@
     - Sub-item
       1. Numbered item.
       2. Another item.
-  - [ ] Item Yet to be done.
+  - [ ] Item yet to be done.
   - [X] Item that has been done.
 
   LaTeX macros can be included: $x_2 = \alpha + \beta^2 - \gamma$.
@@ -54,8 +57,8 @@ https://doi.org/10.1093/comnet/cnv016
         right margin.
 
   ,----
-  | Text to be displayed as-is, without markup (*bold* does not change font), 
-  | e.g., for source code. 
+  | Text to be displayed verbatim (as-is), without markup 
+  | (*bold* does not change font), e.g., for source code. 
   | Line breaks are respected. 
   `----
 
@@ -66,10 +69,10 @@ https://doi.org/10.1093/comnet/cnv016
   |    5.5856e-01   7.5663e-01   9.9548e-01
   `----
 
-  Some arbitrary text to be typeset as-is in monospace font:
+  Some arbitrary text to be typeset verbatim in monospace font:
   ,----
-  | Apples, oranges
-  | Cucumbers, tomatoes
+  | Apples, oranges,
+  | cucumbers, tomatoes
   `----
 
   ---------------------------------------------
@@ -79,7 +82,7 @@ https://doi.org/10.1093/comnet/cnv016
    Unknown                 4         83   20.8 
    United Kingdom          3         41   13.7 
    Germany                 3         29    9.7 
-   Netherlands             2         20   10.0 
+   Netherlands             2         21   10.5 
    Japan                   1         18   18.0 
   ---------------------------------------------
 

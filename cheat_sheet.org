@@ -27,7 +27,7 @@ A horizontal line, fill-width across the page:
   - Sub-item
     1. Numbered item.
     2. Another item.
-- [ ] Item Yet to be done.
+- [ ] Item yet to be done.
 - [X] Item that has been done.	
 
 LaTeX macros can be included: $x_2 = \alpha + \beta^2 - \gamma$.
@@ -39,8 +39,8 @@ LaTeX macros can be included: $x_2 = \alpha + \beta^2 - \gamma$.
 This text will be indented on both the left margin and the right margin.
 #+END_QUOTE
 
-: Text to be displayed as-is, without markup (*bold* does not change font), 
-: e.g., for source code. 
+: Text to be displayed verbatim (as-is), without markup 
+: (*bold* does not change font), e.g., for source code. 
 : Line breaks are respected. 
 
 Some MATLAB source code:
@@ -50,10 +50,10 @@ ans =
    5.5856e-01   7.5663e-01   9.9548e-01
 #+END_SRC
 
-Some arbitrary text to be typeset as-is in monospace font:
+Some arbitrary text to be typeset verbatim in monospace font:
 #+BEGIN_SRC text
-Apples, oranges
-Cucumbers, tomatoes
+Apples, oranges,
+cucumbers, tomatoes
 #+END_SRC
 
 # Table and spreadsheet.  The column headed "Ratio" is automatically
@@ -66,7 +66,7 @@ Cucumbers, tomatoes
 | Unknown        |         4 |        83 |  20.8 |
 | United Kingdom |         3 |        41 |  13.7 |
 | Germany        |         3 |        29 |   9.7 |
-| Netherlands    |         2 |        20 |  10.0 |
+| Netherlands    |         2 |        21 |  10.5 |
 | Japan          |         1 |        18 |  18.0 |
 |----------------+-----------+-----------+-------|
 #+TBLFM: $4=$3/$2;%.1f
