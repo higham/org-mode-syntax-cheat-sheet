@@ -9,7 +9,9 @@ Text](http://karl-voit.at/2017/09/23/orgmode-as-markup-only/) by Karl Voit.
 Contents
 ---------
 
-* `cheat_sheet.org`: The cheat-sheet (an Org-mode file).
+* `cheat_sheet.org`: The cheat-sheet (an Org-mode file). If you are viewing
+   it on GitHub make sure to click "Raw", as GitHub automatically
+   interprets and formats Org files.
 
 * `cheat_sheet.html`: The cheat-sheet exported to an html file.
 
