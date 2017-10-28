@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title>Org Mode Syntax Cheat-Sheet</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+  </style>
+</head>
+<body>
+<div id="header">
+<h1 class="title">Org Mode Syntax Cheat-Sheet</h1>
+</div>
+<h1 id="top-level-heading">Top Level Heading</h1>
+<h2 id="second-level-heading">Second Level Heading</h2>
+<h3 id="third-level-heading">Third Level Heading</h3>
+<p>Paragraphs are separated by at least one empty line.</p>
+<p><strong>bold</strong> <em>italic</em> <strong>underlined</strong> <del>strikethrough</del> <code>monospaced</code></p>
+<p><a href="https://nickhigham.wordpress.com/">Link description</a></p>
+<p><a href="https://nickhigham.wordpress.com/" class="uri">https://nickhigham.wordpress.com/</a> A link without a description.</p>
+<p>A DOI (digital object identifier) link: <a href="doi:10.1093/comnet/cnv016">Matching Exponential-Based and Resolvent-Based Centrality Measures</a></p>
+<p>A horizontal line, fill-width across the page:</p>
+<hr />
+<ul>
+<li>First item in a list.</li>
+<li>Second item.
+<ul>
+<li>Sub-item
+<ol>
+<li>Numbered item.</li>
+<li>Another item.</li>
+</ol></li>
+</ul></li>
+<li>[ ] Item yet to be done.</li>
+<li>[X] Item that has been done.</li>
+</ul>
+<p>LaTeX macros can be included: <span class="math inline"><em>x</em><sub>2</sub> = <em>α</em> + <em>β</em><sup>2</sup> − <em>γ</em></span>.</p>
+<ol>
+<li><p><span class="todo TODO">TODO</span> A todo item.</p></li>
+<li><p><span class="done DONE">DONE</span> A todo item that has been done.</p>
+<blockquote>
+<p>This text will be indented on both the left margin and the right margin.</p>
+</blockquote>
+<pre class="example"><code>Text to be displayed verbatim (as-is), without markup 
+(*bold* does not change font), e.g., for source code. 
+Line breaks are respected. 
+</code></pre>
+<p>Some MATLAB source code:</p>
+<div class="sourceCode"><pre class="sourceCode matlab"><code class="sourceCode matlab">&gt;&gt; rand(<span class="fl">1</span>,<span class="fl">3</span>)
+ans =
+   <span class="fl">5.5856e-01</span>   <span class="fl">7.5663e-01</span>   <span class="fl">9.9548e-01</span></code></pre></div>
+<p>Some arbitrary text to be typeset verbatim in monospace font:</p>
+<pre class="text"><code>Apples, oranges,
+cucumbers, tomatoes
+</code></pre>
+<table>
+<thead>
+<tr class="header">
+<th>Country</th>
+<th>Abstracts</th>
+<th>Downloads</th>
+<th>Ratio</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>United States</td>
+<td>7</td>
+<td>497</td>
+<td>71.0</td>
+</tr>
+<tr class="even">
+<td>Unknown</td>
+<td>4</td>
+<td>83</td>
+<td>20.8</td>
+</tr>
+<tr class="odd">
+<td>United Kingdom</td>
+<td>3</td>
+<td>41</td>
+<td>13.7</td>
+</tr>
+<tr class="even">
+<td>Germany</td>
+<td>3</td>
+<td>29</td>
+<td>9.7</td>
+</tr>
+<tr class="odd">
+<td>Netherlands</td>
+<td>2</td>
+<td>21</td>
+<td>10.5</td>
+</tr>
+<tr class="even">
+<td>Japan</td>
+<td>1</td>
+<td>18</td>
+<td>18.0</td>
+</tr>
+</tbody>
+</table>
+<p>Include an image: <a href="file:nickhighamwordpress.jpg" class="uri">file:nickhighamwordpress.jpg</a></p></li>
+</ol>
+</body>
+</html>

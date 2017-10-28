@@ -21,11 +21,22 @@ Contents
 
 * `cheat_sheet.pdf`: A PDF cheat-sheet produced from the LateX file.
 
+* `cheat_sheet_pandoc.html': Version exported by Pandoc.
+
+* `cheat_sheet_pandoc.txt': Version exported by Pandoc.
+
+* `cheat_sheet_pandoc.tex': Version exported by Pandoc.
+
+* `cheat_sheet_pandoc.pdf': Version exported by Pandoc.
+
 Note
 ----
 
 The exported files were produced in Emacs using
-the `org-export-dispatch` command (C-c C-e).
+the `org-export-dispatch` command (C-c C-e) or,
+for the files with `_pandoc` at the end of their name,
+by Pandoc with a call such as
+`pandoc -s cheat_sheet.org -o cheat_sheet_pandoc.html`.
 
 GitHub renders the Org file.
 Click "Raw" to see it in its original plain text form.
