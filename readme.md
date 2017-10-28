@@ -1,9 +1,9 @@
 Org-Mode Syntax Cheat-Sheet
 ===========================
 
-A document showing the most important aspects of Org-mode syntax.  It is
-adapted from an example of Org syntax in the article [Org-Mode Is One of the
-Most Reasonable Markup Language to Use for
+A document `cheat_sheet.org` showing the most important aspects of Org-mode
+syntax.  It is adapted from an example of Org syntax in the article
+[Org-Mode Is One of the Most Reasonable Markup Language to Use for
 Text](http://karl-voit.at/2017/09/23/orgmode-as-markup-only/) by Karl Voit.
 
 Contents
@@ -21,13 +21,13 @@ Contents
 
 * `cheat_sheet.pdf`: A PDF cheat-sheet produced from the LateX file.
 
-* `cheat_sheet_pandoc.html': Version exported by Pandoc.
+* `cheat_sheet_pandoc.html`: Version exported by Pandoc.
 
-* `cheat_sheet_pandoc.txt': Version exported by Pandoc.
+* `cheat_sheet_pandoc.txt`: Version exported by Pandoc.
 
-* `cheat_sheet_pandoc.tex': Version exported by Pandoc.
+* `cheat_sheet_pandoc.tex`: Version exported by Pandoc.
 
-* `cheat_sheet_pandoc.pdf': Version exported by Pandoc.
+* `cheat_sheet_pandoc.pdf`: Version exported by Pandoc.
 
 Note
 ----
