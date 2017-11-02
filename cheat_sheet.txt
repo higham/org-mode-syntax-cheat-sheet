@@ -1,6 +1,6 @@
                      _____________________________
 
-                      ORG MODE SYNTAX CHEAT-SHEET
+                      ORG MODE SYNTAX CHEAT SHEET
 
                               Nick Higham
                      _____________________________

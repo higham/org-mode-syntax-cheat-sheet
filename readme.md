@@ -1,7 +1,7 @@
-Org-Mode Syntax Cheat-Sheet
+Org Mode Syntax Cheat Sheet
 ===========================
 
-A document `cheat_sheet.org` showing the most important aspects of Org-mode
+A document `cheat_sheet.org` showing the most important aspects of Org mode
 syntax.  It is adapted from an example of Org syntax in the article
 [Org-Mode Is One of the Most Reasonable Markup Language to Use for
 Text](http://karl-voit.at/2017/09/23/orgmode-as-markup-only/) by Karl Voit.
@@ -9,7 +9,7 @@ Text](http://karl-voit.at/2017/09/23/orgmode-as-markup-only/) by Karl Voit.
 Contents
 ---------
 
-* `cheat_sheet.org`: The cheat-sheet (an Org-mode file). If you are viewing
+* `cheat_sheet.org`: The cheat-sheet (an Org mode file). If you are viewing
    it on GitHub make sure to click "Raw", as GitHub automatically
    interprets and formats Org files.
 

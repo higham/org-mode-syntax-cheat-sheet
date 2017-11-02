@@ -1,6 +1,6 @@
 ---
 tblfm: '$4=$3/$2;%.1f'
-title: 'Org Mode Syntax Cheat-Sheet'
+title: Org Mode Syntax Cheat Sheet
 ---
 
 Top Level Heading

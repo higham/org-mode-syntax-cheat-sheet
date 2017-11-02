@@ -1,4 +1,4 @@
-#+TITLE: Org Mode Syntax Cheat-Sheet
+#+TITLE: Org Mode Syntax Cheat Sheet
 #+OPTIONS: toc:nil 
 # Adapted from http://karl-voit.at/2017/09/23/orgmode-as-markup-only/
 
